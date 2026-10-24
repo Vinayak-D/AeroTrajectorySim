@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://u5huuirkl8bu"]
+
+[ext_resource type="Script" uid="uid://bxoqhwu8ek1hf" path="res://agent.gd" id="1_0uoyr"]
+[ext_resource type="PackedScene" uid="uid://babdxds4b3i3v" path="res://missile_correct_orientation.glb" id="1_cdnlh"]
+
+[node name="Node3D" type="Node3D" unique_id=391296777]
+script = ExtResource("1_0uoyr")
+
+[node name="missile_correct_orientation" parent="." unique_id=2063260763 instance=ExtResource("1_cdnlh")]
+
+[node name="BodyCamera" type="Camera3D" parent="." unique_id=1921744382]
+transform = Transform3D(1, 0, 0, 0, 0.92911375, 0.36979413, 0, -0.36979413, 0.92911375, 0, 0.933069, 3.1558044)
