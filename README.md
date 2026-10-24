@@ -4,6 +4,7 @@ A simple 3D aerospace trajectory simulator built in Godot 4.7. The project loads
 
 ## Download
 Please download the project [here](https://vdengineering.itch.io/aerospace-flight-trajectory-simulator).
+Video [here](https://youtu.be/XaGb6fs_dxQ)
 
 ## Features
 - Reads trajectory CSV files and interpolates position/orientation over time
